@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #B220AC;
+}
+p#tittle{
+    font: 100 !important;
+    opacity: 0.8;
+    font-size: 45px;
+    padding-top: 20px;
+    display: block !important;
+}
+section{
+    width: 98%;
+    max-width: 650px;
+    height: 650px;
+    background-color: white;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 6px;
+}
+input{
+    display: block;
+    height: 60px;
+    width: 94%;   
+    margin: 0 auto;
+}
+input[type="text"],[type="password"]{
+    font-size: 27px;
+    margin-top: 30px;
+    max-width: 500px;
+    padding-left: 6px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+[type="submit"]{
+    margin-top: 100px;
+    max-width: 350px;
+    background-color: white;
+    color:#B220AC;
+    font-size: 23px;
+    height: 80px;
+    opacity: 0.8;
+    margin-bottom: 100px;
+}
+[type="submit"]:hover{
+    cursor: pointer;
+    opacity:1;
+}
+.extras{
+    width: 98%;
+    text-align: center;
+    margin: 10px auto;  
+}
+.extras p{
+    color: #B220AC;
+    font-size: 18px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:765px){
+    p#tittle{
+        font-size: 39px;
+    }
+    header img{
+        height: 130px;
+    }
+    input[type="text"],[type="password"]{
+        font-size: 23px;
+    }
+    [type="submit"]{
+        font-size: 20px;
+    }
+}
